@@ -9,7 +9,7 @@
  * --------------------------------------------------------------
  */
 	include 'define.php';
-    //从网页传入money:支付价格， pay_type:支付渠道：43-支付宝；44-微信支付
+    //从网页传入money:支付价格， pay_type:支付渠道：43-支付宝；44-微信支付 
 	$order_no = date('Ymd') . str_pad(mt_rand(1, 99999), 5, '0', STR_PAD_LEFT);    //订单号
 	$subject = '商品名称';
 	$pay_type = $_GET["pay_type"];
