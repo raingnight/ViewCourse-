@@ -39,7 +39,7 @@
 	}
 	else
 	{
-		echo "mysign_forstr=" . $mysign_forstr;	//调试时开启
+		echo "mysign_forstr=" . $mysign_forstr;	//调试时开启 
 		echo "<br>sign=" . $sign;
 		echo "<br>mysign=" . $mysign;
 		echo "<br><br>认证签名失败";
