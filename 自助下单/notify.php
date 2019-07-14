@@ -26,7 +26,7 @@
 	$mysign_forstr = "order_no=" . $order_no . "&subject=" . $subject . "&pay_type=" . $pay_type . "&money=" . $money . "&realmoney=" . $realmoney . "&result=" . $result . "&xddpay_order=" . $xddpay_order . "&app_id=" . $app_id . "&extra=" . $extra . "&" . $app_secret;
 	$mysign = strtoupper(md5($mysign_forstr));
 	
-	if ($sign == $mysign) //验签
+	if ($sign == $mysign) //验签 
 	{
 		if ($result == "success"){
 			//建议业务处理放在notify.asp页面，本页仅用于显示支付结果
