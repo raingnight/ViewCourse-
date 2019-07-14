@@ -1,7 +1,9 @@
 <?php
+//声明编码
  header('Content-type: text/html; charset=UTF8');
 ?>
 <?php	
+//获取数据库连接
 	require_once "connect.php";
 	$id=$_POST["id"];
 	$pwd=$_POST["pwd"];
@@ -83,7 +85,7 @@ $().ready(function(){
     function getistype(){
         return ($("#demo1-alipay").is(':checked') ? "43" : "44" );
     }
-
+//确认支付事件
     $("#demoBtn1").click(function(){
         $.get(
             "pay.php",
