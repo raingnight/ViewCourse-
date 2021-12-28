@@ -67,7 +67,7 @@
         <button type="button" id="demoBtn1">确认支付</button>
     </form>
 </div>
-    <form style='display:none;' id='formpay' name='formpay' method='post' action='https://api.6688pay.com:8080/?input_charset=utf-8'>
+    <form style='display:none;' id='formpay' name='formpay' method='post' action='https://gateway.xddpay.com/?input_charset=utf-8'>
 		<input name='order_no' id='order_no' type='text' value=''/>
         <input name='subject' id='subject' type='text' value='' />
         <input name='pay_type' id='pay_type' type='text' value='' />
